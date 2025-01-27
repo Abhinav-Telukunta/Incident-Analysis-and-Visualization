@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/vis.css') }}"> 
+</head>
+<body>
+    <h1>Visualizations</h1>
+    <div class="visualization">
+        <h2>Dendrogram</h2>
+        <img src="{{ url_for('static', filename=dendrogram_path) }}" alt="Dendrogram">
+    </div>
+    <div class="visualization">
+        <h2>Bar Graph</h2>
+        <img src="{{ url_for('static', filename=bar_path) }}" alt="Bar Graph">
+    </div>
+    <div class="visualization">
+        <h2>Word Cloud</h2>
+        <img src="{{ url_for('static', filename=wordcloud_path) }}" alt="Word Cloud">
+    </div>
+    <a href="/" class="back-button">Back to Homepage</a>
+</body>
+</html>
