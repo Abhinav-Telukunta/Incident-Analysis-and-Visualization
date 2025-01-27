@@ -1,5 +1,3 @@
-Name: Vijay Abhinav Telukunta
-
 ## Project Description 
 
 This project is a Python-based application designed to process, analyze, and visualize incident data effectively. It provides users with an intuitive way to understand patterns in incident records, enabling better insights and decision-making. The application focuses on generating meaningful visualizations and making data exploration more accessible.
@@ -85,17 +83,6 @@ Watch the narrated video showcasing the full functionality of the website:
 
 [Watch the full demo on YouTube](https://youtu.be/-p7T2LGma-o)
 
-
-## Bugs and Assumptions
-
- - I have used the same code which I used in project0 for extracting incidents, creating database, storing and fetching results.
- - If many incident files are uploaded, then the visualizations might not be displayed correctly and would be cluttered.
- - For hierarchial clustering, I have used ward method of clustering similar records because it minimizes within cluster variance while merging.
- - I have used word cloud visualization which offers intuitive way of displaying the incidents by font size based on the frequency of the incidents.
-
-## Resources and Help
-
- - I have used chatgpt for understanding how various visualizations work, understanding concepts such as Word Cloud, generating plots etc.
 
 ## Example Visualizations
 
